@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#category-list {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+
+#product-list {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+#product-info {
+  float: left;
+  width: 300px;
+  margin-top: 70px;
+}
+
+#my-orders {
+  clear: both;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 10px;
+  font-size: 16px;
+  background: rgb(3,70,249);
+  background: linear-gradient(283deg, rgba(3,70,249,1) 38%, rgba(255,253,0,1) 62%);
+  color: rgb(11, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ff0d;
+}
+
+form {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
